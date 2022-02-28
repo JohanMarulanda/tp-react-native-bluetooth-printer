@@ -6,11 +6,11 @@ Pod::Spec.new do |s|
   s.name         = "RNBluetoothEscposPrinter"
   s.version      = package["version"]
   s.summary      = package["description"]
-  s.author       = 'tulparyazilim'
-  s.homepage     = 'https://github.com/tulparyazilim/tp-react-native-bluetooth-printer'
+  s.author       = 'JohanMarulanda'
+  s.homepage     = 'https://github.com/JohanMarulanda/tp-react-native-bluetooth-printer'
   s.license      = package["license"]
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/tulparyazilim/tp-react-native-bluetooth-printer", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/JohanMarulanda/tp-react-native-bluetooth-printer", :tag => "#{s.version}" }
   s.source_files  = "ios/**/*.{h,m}"
   s.dependency "React"
 end
